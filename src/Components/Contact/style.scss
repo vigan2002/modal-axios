@@ -1,0 +1,14 @@
+.contact {
+    display: flex;
+    padding: 50px;
+
+    img,
+    form {
+        width: 50%;
+    }
+    .form-input {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}

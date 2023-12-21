@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+
+    .card {
+        width: 30%;
+        margin: 5px;
+        border: 1px solid #eee;
+
+        img {
+            width: 400px;
+            height: 300px;
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+}
